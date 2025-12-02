@@ -1,0 +1,98 @@
+/* --- Navigation/Header Styling (Light Blue Bar) --- */
+.navbar {
+    background-color: #6a96e3; 
+    padding: 15px 0;
+    text-align: center;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 10px;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/* --- Hero Image and Content Section (Transparent Background Fix) --- */
+.hero-image-container {
+    background-image: url('mens section picture.png');
+    height: 80vh; 
+    background-size: cover;
+    background-position: center 30%; 
+    position: relative;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    padding: 0 5%;
+}
+
+.hero-content {
+    /* Background is now transparent */
+    background-color: transparent; 
+    padding: 0 40px; 
+    max-width: 800px; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for the centered title above the text block */
+.hero-content .page-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ffffff; 
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); 
+    width: 100%; 
+    padding-top: 20px;
+}
+
+.hero-content p {
+    font-size: 1.1em;
+    line-height: 1.6; 
+    color: #ffffff; 
+    font-weight: 400;
+    /* Stronger text shadow for readability over image */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+/* --- Filter Bar Styling (Light Blue Bar at bottom) --- */
+.filter-bar {
+    background-color: #a8c1f0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%; 
+    border-top: 1px solid #ddd;
+    font-size: 0.95em;
+}
+
+.filters a {
+    color: #fff; 
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 5px 0;
+    font-weight: 500;
+}
+
+.user-controls {
+    display: flex;
+    align-items: center;
+    color: #333; 
+}
+.user-controls span,
+.user-controls a {
+    margin-left: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+}
